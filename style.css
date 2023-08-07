@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game{
+    width:75%;
+    margin:auto;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+.title{
+    background-color: rgb(71, 174, 71);
+    letter-spacing: 3px;
+    padding: 20px;
+}
+.squars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.item{
+    margin-top: 3px;
+    background-color: rgb(71, 174, 71);
+width: 33%;
+height: 160px;
+/* margin: 2px; */
+font-size: 130px;
+cursor: pointer;
+/* border: 1px solid black; */
+}
+.item:hover{
+    background-color: black;
+}
